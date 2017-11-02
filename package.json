@@ -1,0 +1,17 @@
+{
+  "name": "y-deferred",
+  "version": "0.1.0",
+  "description": "Deferred implementation",
+  "main": "./lib/index.js",
+  "module": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "repository": "https://github.com/liuyuchenzh/y-deferred.git",
+  "bugs": {
+    "url": "https://github.com/liuyuchenzh/y-deferred/issues"
+  },
+  "author": "Yuchen Liu",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -d --outDir ./lib"
+  }
+}

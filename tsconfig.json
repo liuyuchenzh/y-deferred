@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es6",
+    "lib": ["es7"],
+    "removeComments": true
+  },
+  "include": ["src/**/*.ts"]
+}
