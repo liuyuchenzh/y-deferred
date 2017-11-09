@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Deferred implementation",
   "main": "./lib/index.js",
-  "module": "./lib/index.js",
+  "module": "./lib/es/index.js",
   "types": "./lib/index.d.ts",
   "repository": "https://github.com/liuyuchenzh/y-deferred.git",
   "bugs": {
@@ -12,6 +12,8 @@
   "author": "Yuchen Liu",
   "license": "MIT",
   "scripts": {
-    "build": "tsc -d --outDir ./lib"
+    "umd": "tsc",
+    "test": "node test/test.js",
+    "es": "tsc -p tsconfig.es.json"
   }
 }

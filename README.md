@@ -21,7 +21,7 @@ function test() {
   setTimeout(() => {
     d.resolve('done')
   }, 1000)
-  return d.result
+  return d
 }
 
 async function handleTest() {

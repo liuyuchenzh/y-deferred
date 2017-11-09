@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "umd",
+    "module": "es6",
     "lib": ["es7"],
     "removeComments": true,
-    "outDir": "lib",
-    "declaration": true,
+    "outDir": "lib/es",
+    "declaration": false,
     "watch": true
   },
   "include": ["src/**/*.ts"]
