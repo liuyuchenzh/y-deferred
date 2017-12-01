@@ -4,6 +4,6 @@ export default class Deferred {
     resolve: (ret: any) => any;
     reject: (ret: any) => any;
     constructor();
-    then(onFullfill: handler, onReject?: handler): Promise<any>;
+    then(onFulfill: handler, onReject?: handler): Promise<any>;
     catch(onReject: handler): Promise<any>;
 }
