@@ -12,8 +12,8 @@ export default class Deferred {
     })
   }
 
-  then(onFullfill: handler, onReject?: handler): Promise<any> {
-    return this.result.then(onFullfill, onReject)
+  then(onFulfill: handler, onReject?: handler): Promise<any> {
+    return this.result.then(onFulfill, onReject)
   }
 
   catch(onReject: handler) {
