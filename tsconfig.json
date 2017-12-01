@@ -5,8 +5,7 @@
     "lib": ["es7"],
     "removeComments": true,
     "outDir": "lib",
-    "declaration": true,
-    "watch": true
+    "declaration": true
   },
   "include": ["src/**/*.ts"]
 }

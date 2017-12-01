@@ -12,8 +12,9 @@
   "author": "Yuchen Liu",
   "license": "MIT",
   "scripts": {
-    "umd": "tsc",
-    "test": "node test/test.js",
-    "es": "tsc -p tsconfig.es.json"
+    "umd": "tsc -w",
+    "es": "tsc -p -w tsconfig.es.json",
+    "build": "tsc && tsc -p tsconfig.es.json",
+    "test": "node test/test.js"
   }
 }
