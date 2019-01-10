@@ -2,9 +2,10 @@
   "name": "y-deferred",
   "version": "0.2.1",
   "description": "Deferred implementation",
-  "main": "./lib/index.js",
-  "module": "./lib/es/index.js",
-  "types": "./lib/index.d.ts",
+  "main": "lib/index.js",
+  "umd:main": "lib/index.umd.js",
+  "module": "lib/index.mjs",
+  "source": "src/index.ts",
   "repository": "https://github.com/liuyuchenzh/y-deferred.git",
   "bugs": {
     "url": "https://github.com/liuyuchenzh/y-deferred/issues"
@@ -12,9 +13,11 @@
   "author": "Yuchen Liu",
   "license": "MIT",
   "scripts": {
-    "umd": "tsc -w",
-    "es": "tsc -p -w tsconfig.es.json",
-    "build": "tsc && tsc -p tsconfig.es.json",
-    "test": "node test/test.js"
+    "clean": "rm -rf lib",
+    "build": "npm run clean && microbundle",
+    "dev": "microbundle watch"
+  },
+  "devDependencies": {
+    "microbundle": "^0.9.0"
   }
 }

@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "umd",
+    "module": "esnext",
     "lib": ["es7"],
     "removeComments": true,
     "outDir": "lib",
