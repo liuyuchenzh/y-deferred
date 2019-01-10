@@ -1,6 +1,6 @@
 {
   "name": "y-deferred",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Deferred implementation",
   "main": "lib/index.js",
   "umd:main": "lib/index.umd.js",
