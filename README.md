@@ -1,5 +1,7 @@
 ## Intro
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/liuyuchenzh/y-deferred.svg)](https://greenkeeper.io/)
+
 Simple implementation of deferred object
 
 ## Installation
